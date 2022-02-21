@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link  rel="stylesheet" href="./css"/>
+        
+        <script >
+        window.onload = () => {
+            console.log('document onload')
+        }
+        window.addEventListener("DOMContentLoaded", function () {  //添加DOMContentLoaded事件
+            console.log("domContentLoad执行");
+        }, false)
+        </script>
+    </head>
+    <body>
+        <h1 class="cls">This is H1</h1>
+        <img src="./logo">
+    </body>
+    <script defer src="./normal" ></script>
+    <script defer src="./normal2" ></script>
+    <script defer src="./deferjs2" ></script>
+        <script defer src="./deferjs1" ></script>
+        <script async src="./asyncjs1" ></script>
+        <script async src="./asyncjs2" ></script>
+    </html>
